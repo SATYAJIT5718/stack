@@ -68,7 +68,7 @@ ul li a{
     color: white;
     text-decoration: none;
 }
-.contact{
+.Contact{
     position: relative;
     min-height: 100vh;
     padding: 50px 100px;
@@ -76,6 +76,6 @@ ul li a{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background: url(../slider4.jpg);
+
     background-size: cover;
 }
