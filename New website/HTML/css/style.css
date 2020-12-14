@@ -4,8 +4,11 @@
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-li{
-    color: white;
+header{
+    background-image: url(../backgroung2.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
 }
 
 
@@ -18,6 +21,7 @@ ul{
 
 ul li {
     display: inline;
+    color: red;
 }
 
 ul li a{
