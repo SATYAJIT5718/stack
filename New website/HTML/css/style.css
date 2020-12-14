@@ -31,8 +31,14 @@ ul li a{
     transition: 0.6s ease;
 
 }
+.logo img{
+    float: left;
+    width: 150px;
+    height: auto;
+}
 
-ul li a:hover{
-    background-color: white;
-    color: black;
+.main{
+    max-width: 1500px;
+    margin: auto;
+
 }
