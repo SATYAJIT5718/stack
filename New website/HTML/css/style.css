@@ -6,7 +6,7 @@
 
 header{
     background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../backgroung2.jpg);
-    height: 100vh;
+    height: 130vh;
     background-size: cover;
     background-position: center;
 }
@@ -74,9 +74,29 @@ ul li a{
     min-height: 50vh;
     padding: 50px 50px;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: left;
+    align-items: flex-start;
     flex-direction: column;
-    
     background-size: cover;
+    color: royalblue;
+    top: 10px;
+}
+
+form{
+    float: right;
+    color: white;
+}
+h1 {
+    
+  position: relative;
+  left: 1050px;
+}
+
+h3{
+    color: red;
+}
+fieldset{
+    background-color:black;
+    position: relative;
+    right: 20px;
 }
