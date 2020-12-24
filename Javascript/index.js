@@ -1,3 +1,4 @@
+/*
 // 1. number datatype
 //var x = 5
 //var y = 6
@@ -81,10 +82,17 @@ console.log(false||true);
 //console.log(!true)
 
 
+var size = [];
+console.log(size);
 
+size[0] = 38;
+console.log(size);
 
-console.log(x+y);
+size[1] = 40;
+console.log(size);
 
+size[10] = 40;
+console.log(size);
 
-
-
+size.uppop();
+console.log(size);
