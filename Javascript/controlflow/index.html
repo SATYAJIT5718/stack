@@ -3,10 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="index.js"></script>
+    <title>Button event</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="index.js" defer="defer"></script>
+    <script src="index2.js"></script>
+
 </head>
 <body>
-    
-    hello
+    <h1> JAVASCRIPT EVENTS ON BUTTON</h1>
+    <div>
+    <button id="onmouseove">onmouseover</button>
+    <button id="onmouseout">onmouseout</button>
+    <button id="onclick">onclick</button>
+    <button id="onbdlclick">ondblclick</button>
+    </div>
+    <div>
+    <h3>click to change background color:<input type="text" onfocus="myFunction(this)"></h3>
+    </div>
+    <div>
+    <h3>Enter lowercase to uppercase events <input type="text" id="fname" onblur="myFunction()"></h3>
+    </div>
 </body>
+
+<script> 
+
+    document.getElementById("onmouseove").onmouseover = function() {mouseOver()};
+    document.getElementById("onmouseout").onmouseout = function() {mouseOut()};
+    document.getElementById("onclick").onclick = function() {onclick()};
+    document.getElementById("onbdlclick").ondblclick = function() {mousedoubleclick()};
+   
+   
+</script>
+
+
 </html>
