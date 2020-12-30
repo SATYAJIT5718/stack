@@ -3,7 +3,7 @@
 
 <head>
     <title>
-        Html CRUD with Pure JavaScript
+        form data print
     </title>
     <link rel="stylesheet" href="styles.css">
 </head>
@@ -14,7 +14,7 @@
             <td>
                 <form onsubmit="event.preventDefault();onFormSubmit();" autocomplete="off">
                     <div>
-                        <label>Full Name</label><label class="validation-error hide" id="fullNameValidationError">This field is required.</label>
+                        <label>Full Name</label><label class="validation-error hide" id="fullNameValidationError">*Mandotory</label>
                         <input type="text" name="fullName" id="fullName">
                     </div>
                     <div>
@@ -23,7 +23,7 @@
                     </div>
                     <div>
                         <label>Salary</label>
-                        <input type="text" name="salary" id="salary">
+                        <input type="number" name="salary" id="salary">
                     </div>
                     <div>
                         <label>City</label>
