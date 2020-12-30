@@ -10,23 +10,21 @@
       }
 
       input {
-        background: salmon;
         color: sandybrown;
       }
     </style>
     <script>
       function mouseOver() {
-        // console.log("Testing");
         document.getElementById("iswar").style.background = "green";
       }
 
       function satya() {
-        //console.log("Testing");
         document.getElementById("mout").style.background = "yellow";
       }
 
       function mup() {
         console.log("Testing");
+        document.getElementById("mtest").style.background = "yellow";
       }
 
       function clickHandler() {
@@ -39,9 +37,7 @@
       }
 
       function focusHandler() {
-        console.log("inside focus");
-        // document.getElementsByName("satya").style.background = "green";
-
+    
         document.getElementById("one123").style.background = "green";
       }
     </script>
@@ -56,12 +52,12 @@
     <br /><br /><br />
     <div>
       <label> Mouse out - Event </label>
-      <button onmouseout="satya()" id="mout">Mouse Over - Ex</button>
+      <button onmouseout="satya()" id="mout">Mouse Out - Ex</button>
     </div>
     <br /><br /><br />
     <div>
       <label> Mouse UP - Event </label>
-      <button onmouseup="mup()" id="mtest">Mouse Over - Ex</button>
+      <button onmouseup="mup()" id="mtest">Mouse up - Ex</button>
     </div>
     <br /><br /><br />
     <hr />
@@ -78,7 +74,7 @@
     <hr />
     <form>
       <label> Please Enter Name </label><br />
-      <input type="text" onfocus="focusHandler()" name="satya" id="one123" />
+      <input type="text" onfocus="focusHandler()" id="one123" />
 
       <br />
       <br />
