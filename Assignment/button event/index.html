@@ -1,0 +1,99 @@
+ <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      button {
+        background: red;
+      }
+
+      input {
+        background: salmon;
+        color: sandybrown;
+      }
+    </style>
+    <script>
+      function mouseOver() {
+        // console.log("Testing");
+        document.getElementById("iswar").style.background = "green";
+      }
+
+      function satya() {
+        //console.log("Testing");
+        document.getElementById("mout").style.background = "yellow";
+      }
+
+      function mup() {
+        console.log("Testing");
+      }
+
+      function clickHandler() {
+        alert("hello");
+      }
+
+      function dblclickHandler() {
+        console.log("Inside Dbl click funciton");
+        alert("Double click Alert ...");
+      }
+
+      function focusHandler() {
+        console.log("inside focus");
+        // document.getElementsByName("satya").style.background = "green";
+
+        document.getElementById("one123").style.background = "green";
+      }
+    </script>
+  </head>
+  <body>
+    <h1>All Javascript Event Example</h1>
+    <div>
+      <label> Mouse Over - Event </label>
+      <button onmouseover="mouseOver()" id="iswar">Mouse Over - Ex</button>
+    </div>
+    <br />
+    <br /><br /><br />
+    <div>
+      <label> Mouse out - Event </label>
+      <button onmouseout="satya()" id="mout">Mouse Over - Ex</button>
+    </div>
+    <br /><br /><br />
+    <div>
+      <label> Mouse UP - Event </label>
+      <button onmouseup="mup()" id="mtest">Mouse Over - Ex</button>
+    </div>
+    <br /><br /><br />
+    <hr />
+
+    <div>
+      <label> Button Events </label>
+      <button onclick="clickHandler()">Click</button>
+    </div>
+
+    <div>
+      <label> Button Events </label>
+      <button ondblclick="dblclickHandler()">Click</button>
+    </div>
+    <hr />
+    <form>
+      <label> Please Enter Name </label><br />
+      <input type="text" onfocus="focusHandler()" name="satya" id="one123" />
+
+      <br />
+      <br />
+
+      <hr />
+
+      <label> Please Enter User Name:</label>
+      <input type="text" onblur="blurHandler()" id="one1234" />
+    </form>
+    <script>
+      function blurHandler() {
+        var x = document.getElementById("one1234");
+        console.log(x.value);
+        x.value = x.value.toUpperCase();
+      }
+    </script>
+  </body>
+</html>
