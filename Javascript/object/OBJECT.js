@@ -12,3 +12,5 @@ let product = {
    console.log(product.price);
    console.log(product.color);
    console.log(product.status());
+
+   //oject in javascriptS
