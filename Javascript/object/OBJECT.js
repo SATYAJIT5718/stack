@@ -7,8 +7,8 @@ let product = {
       return "";
     },
   };
-//    console.log(product);
-//    console.log(product.name);
-//    console.log(product.price);
-//    console.log(product.color);
+   console.log(product);
+   console.log(product.name);
+   console.log(product.price);
+   console.log(product.color);
    console.log(product.status());
