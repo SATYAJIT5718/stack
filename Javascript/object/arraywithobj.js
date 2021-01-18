@@ -10,9 +10,14 @@ let product=[
 // console.log(product[2]); //to print indivisual object in an array
 
 // by specific condition how to print specific part of the key and value
-for(let i=0;i<=product.length-1;i++){
-    if(product[i].color=='red')
-    console.log('brand:',product[i].brand,'p_name:',product[i].p_name);
-}
+// for(let i=0;i<=product.length-1;i++){
+//     if(product[i].color=='red')
+//     console.log('brand:',product[i].brand,'p_name:',product[i].p_name);
+// }
 
 // console.log(product.color); // it's a undefined task becoz this array contain multiple object.   
+
+for(let i=0;i<=product.length-1;i++){
+        console.log(product[i]);
+       
+    }
