@@ -1,7 +1,13 @@
-let num=[1,2,3,4,5]
-    for( x of num ){
-    console.log(x);
+let obj={
+    name:'satya',
+    age:26,
+    location:"banglore",
+    blood_group:"AB+ve"
 }
 
+for(x in obj){
+    console.log(x ,":",obj[x])
+    // console.log(x); // this is only showing the property name not property value.
+}
 
-//for of is used for the invocation purpose in ARRAY.
+// for in is used for the iteration purpose in OBJECT.
