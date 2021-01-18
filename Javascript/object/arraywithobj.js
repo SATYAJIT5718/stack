@@ -15,4 +15,4 @@ for(let i=0;i<=product.length-1;i++){
     console.log('brand:',product[i].brand,'p_name:',product[i].p_name);
 }
 
-// console.log(product.color); // it's a undefined task becoz this array contain multiple object.
+// console.log(product.color); // it's a undefined task becoz this array contain multiple object.   
