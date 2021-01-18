@@ -18,6 +18,5 @@ let product=[
 // console.log(product.color); // it's a undefined task becoz this array contain multiple object.   
 
 for(let i=0;i<=product.length-1;i++){
-        console.log(product[i]);
-       
+        console.log(product[i]);      
     }
