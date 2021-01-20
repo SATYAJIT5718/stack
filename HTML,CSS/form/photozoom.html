@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>click the image to zoom</title>
+    
+</head>
+<body>
+    <h1>mouseover events</h1>
+    <img src="gym logo.png" onmouseover="zoom(this)" onmouseout="zoomout(this)" > </img>
+<script>
+    function zoom(x) {
+        // alert("hello");
+        x.style.height="300px";
+        x.style.width="300px";
+    }
+    function zoomout(x) {
+        // alert('hi');
+        x.style.height="200px";
+        x.style.width="200px";
+    }
+</script>
+</body>
+</html>
