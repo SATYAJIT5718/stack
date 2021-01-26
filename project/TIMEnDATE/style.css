@@ -1,0 +1,24 @@
+.lead{
+    text-align: center;
+    color: white;
+  }
+  .display-4{
+    text-align: center;
+    color: white;
+  }
+  .jumbotron{
+    background-color: black;
+  }
+  #time,#date{
+    color: red;
+  }
+  h1{
+    color: yellowgreen;
+  }
+  p{
+    color: white;
+  }
+  #day{
+    text-align: center;
+    color: white;
+  }
