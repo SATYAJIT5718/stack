@@ -12,12 +12,7 @@ header{
 }
 
 
-ul{
-    float: right;
-    list-style-type: none;
-    margin-top: 25px;
 
-}
 
 ul li {
     display: inline;
@@ -37,11 +32,7 @@ ul li a{
     height: auto;
 }
 
-.main{
-    max-width: 1500px;
-    margin: auto;
 
-}
 
 .title{
     position: absolute;
@@ -65,7 +56,7 @@ ul li a{
 .btn{
     border: 1px solid white;
     padding: 10px 30px;
-    color: white;
+    color: red;
     text-decoration: none;
 }
 
@@ -89,7 +80,7 @@ form{
 h2 {
     
   position: relative;
-  left: 1050px;
+  left: 1200px;
   top: 150px;
 }
 
@@ -106,3 +97,4 @@ iframe{
     width: 30%;
     height: 200px;
 }
+
