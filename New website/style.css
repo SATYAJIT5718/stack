@@ -6,9 +6,10 @@
 
 header{
     background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(backgroung2.jpg);
-    height: 130vh;
+    height: 110vh;
     background-size: cover;
     background-position: center;
+    top: 0%;
 }
 
 
@@ -63,14 +64,14 @@ ul li a{
 .Contact{
     position: relative;
     min-height: 50vh;
-    padding: 50px 50px;
+    padding: 30px 50px;
     display: flex;
     justify-content: left;
     align-items: flex-start;
     flex-direction: column;
     background-size: cover;
     color: royalblue;
-    top: 10px;
+    top: -2px;
 }
 
 form{
