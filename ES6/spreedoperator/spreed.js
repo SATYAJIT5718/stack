@@ -14,8 +14,8 @@ let xy={
     bloodgroup:'ab+ve',
 }
 
-// console.log(xy);
-// console.log(x);
-xy.age=29;
-x.age=25;
-console.log(y);
+console.log(xy);
+// // console.log(x);
+// xy.age=29;
+// x.age=25;
+// console.log(y);
