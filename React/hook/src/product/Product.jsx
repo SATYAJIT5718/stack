@@ -9,7 +9,6 @@ let Product = () => {
         Displacement: '1340cc',
 
     })
-
     return (
         <>
             <div className='container mt-5'>
@@ -34,7 +33,7 @@ let Product = () => {
                                     <td>{Product.product_name}</td>
                                     <td>{Product.Displacement}</td>
                                     <td>
-                                        <button className="btn btn-primary" onClick={() => { setProduct({ ...Product, qty: Product.qty >1?Product.qty- 1:1 }) }}>-</button>
+                                        <button className="btn btn-primary" onClick={() => { setProduct({ ...Product, qty: Product.qty > 1 ? Product.qty - 1 : 1 }) }}>-</button>
                                         {Product.qty}
                                         <button className="btn btn-primary" onClick={() => { setProduct({ ...Product, qty: Product.qty + 1 }) }}>+</button>
                                         <i class="fas fa-minus-circle"></i>

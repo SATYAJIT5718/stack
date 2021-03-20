@@ -1,19 +1,16 @@
 import React from 'react';
-import Message from './wish/Message';
-import Product from './product/Product';
-import Counter from './counter/Counter';
+import EventHandler from './component/eventHandler';
+import WishHandler from './component/wishHandler';
+import Counter from './component/Counter';
 
-
-function App() {
+const App = () => {
   return (
     <>
-      <h1>App Component</h1>
-      <Message/>
-      <Product/>
+      <EventHandler />
+      <WishHandler/>
       <Counter/>
-     
     </>
-  );
+  )
 }
 
-export default App;
+export default App
