@@ -1,14 +1,12 @@
-import React from 'react';
-import EventHandler from './component/eventHandler';
-import WishHandler from './component/wishHandler';
-import Counter from './component/Counter';
+import React from 'react'
+import ImageEx from './UseRefEx/ImageEx'
 
 const App = () => {
   return (
     <>
-      <EventHandler />
-      <WishHandler/>
-      <Counter/>
+      <nav className='navbar navbar-dark bg-dark'>
+        <a href='/'>UseRef Example</a></nav>
+      <ImageEx/>
     </>
   )
 }

@@ -1,0 +1,1 @@
+gettting the data from one.txt file.
