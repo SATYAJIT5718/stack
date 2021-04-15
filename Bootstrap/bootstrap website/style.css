@@ -7,3 +7,12 @@
 .carousel .item {
     height: 100px;
   }
+
+  .d-block{
+      height: 700px;
+      width: 1600px;
+  }
+  .img-fluid{
+      height: 90%;
+      width: 300%;
+  }
