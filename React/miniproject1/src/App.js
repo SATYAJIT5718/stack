@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 
-let time=new Date(2020,5,5,15);
+let time=new Date(2020,5,5,14 );
 time=time.getHours();
 let greeting=' ';
 const greetclr={ };

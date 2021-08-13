@@ -42,8 +42,8 @@ class EmployeeApp extends Component {
                         </div>
                     </div>
                     <div className='row'>
-                        <div className='col'>
-                            <table className='table table-hover table-striped'>
+                        <div className='col-md-12'>
+                            <table className='table table-hover table-striped text-center'>
                                 <thead><tr>
                                     <th>Id</th>
                                     <th>Employee Name</th>

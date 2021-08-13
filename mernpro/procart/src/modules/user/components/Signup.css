@@ -1,0 +1,22 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-image: url(./arrow.jpg);
+    background-size:cover;
+    
+    background-attachment: fixed;
+    font-family: 'Roboto', sans-serif;
+    
+}
+h1,h2,h3{
+    font: size 40px;
+    color:white;
+    margin-top: 250px;
+}
+p{
+    font-size: 17px;
+    color: white;
+}
